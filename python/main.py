@@ -96,3 +96,8 @@ Element.buildPeriodic()
 Material.buildReference()
 Reaction.updateReference()
 
+
+"""examples"""
+print(Element.periodic['S'].AtomicMass)
+print(Material.directory['Vanadium Chromium Steel'].Density_kg__m3)
+

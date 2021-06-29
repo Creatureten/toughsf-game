@@ -12,12 +12,27 @@ for specified length: {}".format(string,length))
 def cocatenate(string):
     return string.replace('Microscopic','μ').replace('Gamma','γ')
 
-with open('Data/EmissionLines.txt','r') as f:
-    raw = f.readlines()
+
+def getEmissions():
+    with open('Data/EmissionLines.txt','r') as f:
+        raw = f.readlines()
+
+    emissionDict = {}
     sep = []
     for l in raw:
         if 'SPECTRA' in l:
             sep.append(raw.index(l))
+    for i in range(len(sep)):
+        start = sep[i]
+        if i < len(sep)-1:
+            end = sep[i+1]
+        else:
+            end = len(raw)
+        newEm = raw[start:end]
+        newEmStrip = [r.rstrip() for r in newEm]
 
-    print(sep)
-            
+        emissionDict.update({newEm[0].replace('SPECTRA ','').rstrip():newEmStrip})
+
+    return emissionDict
+
+    

@@ -1,4 +1,4 @@
-from misc import shortHand,cocatenate
+from misc import shortHand,cocatenate,getEmissions
 
 class Material():
     """
@@ -208,8 +208,15 @@ class Element():
         print("\n")
 
     def buildPeriodic():
+        emLines = getEmissions()
         for e in Element.directory.values():
             Element.periodic.update({e.Symbol:e})
+            """
+                try to incorporate emission data into elements"""
+            try:
+                setattr(e,'Emission',emLines[e.Emission])
+            except AttributeError:
+                print("element {} does not have emission data".format(e))
 
         
 
