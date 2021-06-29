@@ -1,0 +1,129 @@
+AsteroidSpectralType C
+Composition
+	Graphite
+	Water
+	Magnetite
+	Phyllosilicate
+	Olivine
+	Calcite
+
+AsteroidSpectralType B
+Composition
+	Water
+	Graphite
+	Magnetite
+	Phyllosilicate
+	Olivine
+	Wollastonite
+
+AsteroidSpectralType F
+Composition
+	Olivine
+	Wollastonite
+	Enstatite
+	Ferrosilite
+	Diopside
+	Hedenbergite
+
+AsteroidSpectralType G
+Composition
+	Ammonia
+	Phyllosilicate
+	Olivine
+	Wollastonite
+	Enstatite
+	Ferrosilite
+	Diopside
+	Hedenbergite
+
+AsteroidSpectralType S
+Composition
+	Olivine
+	Wollastonite
+	Plagioclase
+	Calcium Phosphate
+	Troilite
+	Tetrataenite
+	Fayalite
+	Enstatite
+	Chromite
+	Sodium Feldspar
+	Iron
+	Wustite
+
+AsteroidSpectralType X
+Composition
+	Tetrataenite
+	Water
+	Wollastonite
+	Olivine
+	Fayalite
+	Ferrosilite
+
+AsteroidSpectralType M
+Composition
+	Tetrataenite
+	Kamacite
+	Enstatite
+	Iron
+	Water
+
+AsteroidSpectralType E
+Composition
+	Enstatite
+
+AsteroidSpectralType P
+Composition
+	Tetrataenite
+	Water
+	Graphite
+	Fayalite
+	Ferrosilite
+
+AsteroidSpectralType A
+Composition
+	Olivine
+	Tetrataenite
+	Kamacite
+
+AsteroidSpectralType D
+Composition
+	Water
+	Graphite
+
+AsteroidSpectralType T
+Composition
+	Calcite
+	Olivine
+	Troilite
+	Kamacite
+	Graphite
+
+AsteroidSpectralType Q
+Composition
+	Olivine
+	Wollastonite
+	Enstatite
+	Ferrosilite
+	Diopside
+	Hedenbergite
+
+AsteroidSpectralType R
+Composition
+	Olivine
+	Wollastonite
+	Enstatite
+	Ferrosilite
+	Diopside
+	Hedenbergite
+	Plagioclase
+
+AsteroidSpectralType V
+Composition
+	Wollastonite
+	Enstatite
+	Ferrosilite
+	Diopside
+	Hedenbergite
+	Plagioclase
+	Sodium Feldspar

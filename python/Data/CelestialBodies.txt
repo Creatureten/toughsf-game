@@ -1,0 +1,2326 @@
+CelestialBody Sol
+Mass_kg								1.98855e30
+Radius_km							696342
+SurfaceTemperature_K				5777
+IsGasComposition					true
+Rotation
+	AxialTilt_degrees					7.5
+	SiderealRotationPeriod_s			2.16432e6
+
+CelestialBody Mercury
+Mass_kg								3.3022e23
+Radius_km							2439.7
+Albedo								.119
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					57909226.5415244
+		Eccentricity						.20563661
+		ArgumentOfPeriapsis_degrees			77.45771895
+		LongitudeOfAscendingNode_degrees	252.25166742
+		MeanAnomaly_degrees					48.33961819
+		InclinationToRelativePlane_degrees	7.00559432
+Rotation
+	AxialTilt_degrees					.035167
+	SiderealRotationPeriod_s			5067014.4
+Atmosphere
+	SurfacePressure_Pa					1e-10
+	Composition
+		Oxygen				.42
+		Sodium				.29
+		Hydrogen			.22
+		Helium				.06
+		Potassium			.005
+
+CelestialBody Venus
+Mass_kg								4.8676e24
+Radius_km							6051.8
+Albedo								.90
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					108207284.424552
+		Eccentricity						.00676399
+		ArgumentOfPeriapsis_degrees			131.76755713
+		LongitudeOfAscendingNode_degrees	181.97970850
+		MeanAnomaly_degrees					76.67261496
+		InclinationToRelativePlane_degrees	3.39777545
+Rotation
+	AxialTilt_degrees					177.36
+	SiderealRotationPeriod_s			-20996798.4
+Atmosphere
+	SurfacePressure_Pa					9210000
+	Composition
+		Carbon Dioxide	.965
+		Nitrogen		.035
+		Sulfur Dioxide	.000150
+		Argon			.000070
+		Water			.000020
+		Carbon Monoxide	.000017
+		Helium			.000012
+		Neon			.000007
+
+CelestialBody Earth
+Mass_kg								5.97219e24
+Radii_km							6378.1	6378.1	6356.8
+Albedo								.306
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					149598261.150
+		Eccentricity						.01673163
+		ArgumentOfPeriapsis_degrees			102.93005885
+		LongitudeOfAscendingNode_degrees	100.46691572
+		MeanAnomaly_degrees					-5.11260389
+		InclinationToRelativePlane_degrees	-.00054346
+Rotation
+	AxialTilt_degrees					23.43928108333333
+	SiderealRotationPeriod_s			86164.100352
+Atmosphere
+	SurfacePressure_Pa					101325
+	Composition
+		Nitrogen		.7808
+		Oxygen			.2095
+		Argon			.009340
+		Water			.0025
+		Carbon Dioxide	.000400
+		Neon			.000018
+		Helium			.00000524
+		Methane			.0000017
+		Krypton			.00000114
+		Hydrogen		.00000055
+
+CelestialBody Luna
+Mass_kg								7.3477e22
+Radii_km							1738.14	1738.14	1735.97
+Albedo								.123
+Orbit
+	ParentBody							Earth
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					384400
+		Eccentricity						.0554
+		ArgumentOfPeriapsis_degrees			318.15
+		LongitudeOfAscendingNode_degrees	125.08
+		MeanAnomaly_degrees					135.27
+		InclinationToRelativePlane_degrees	5.16
+Rotation
+	AxialTilt_degrees					1.5424
+	SiderealRotationPeriod_s			2360584.6848
+
+CelestialBody Itokawa
+Mass_kg								3.58e10
+Radii_km							.2675	.147	.1045
+Albedo								.07
+SpectralType						S
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2005
+		SemiMajorAxis_km					198044000
+		Eccentricity						.280
+		ArgumentOfPeriapsis_degrees			162.760
+		LongitudeOfAscendingNode_degrees	69.095
+		MeanAnomaly_degrees					294.502
+		InclinationToRelativePlane_degrees	1.622
+Rotation
+	AxialTilt_degrees					180
+	SiderealRotationPeriod_s			43675.2
+
+CelestialBody Eros
+Mass_kg								6.69e15
+Radii_km							17.2	5.6	5.6
+Albedo								.12
+SpectralType						S
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					218155000
+		Eccentricity						.223
+		ArgumentOfPeriapsis_degrees			178.664
+		LongitudeOfAscendingNode_degrees	304.401
+		MeanAnomaly_degrees					320.215
+		InclinationToRelativePlane_degrees	10.829
+Rotation
+	SiderealRotationPeriod_s			18956.16
+
+CelestialBody Mars
+Mass_kg								6.4185e23
+Radii_km							3396.2	3396.2	3376.2
+Albedo								.250
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					227944135.087123
+		Eccentricity						.09336511
+		ArgumentOfPeriapsis_degrees			-23.91744784
+		LongitudeOfAscendingNode_degrees	-4.56813164
+		MeanAnomaly_degrees					49.71320984
+		InclinationToRelativePlane_degrees	1.85181869
+Rotation
+	AxialTilt_degrees					25.19
+	SiderealRotationPeriod_s			88642.6848
+Atmosphere
+	SurfacePressure_Pa					636
+	Composition
+		Carbon Dioxide	.9532
+		Nitrogen		.027
+		Argon			.016
+		Oxygen			.0013
+		Carbon Monoxide	.0008
+		Water			.000210
+		Nitric Oxide	.000100
+		Neon			.0000025
+		Semiheavy Water	.00000085
+		Krypton			.00000030
+		Xenon			.00000008
+
+CelestialBody Phobos
+Mass_kg								1.0659e16
+Radii_km							13.5	11	9
+Albedo								.071
+SpectralType						D
+Orbit
+	ParentBody							Mars
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					9376
+		Eccentricity						.0151
+		ArgumentOfPeriapsis_degrees			150.057
+		LongitudeOfAscendingNode_degrees	207.784
+		MeanAnomaly_degrees					91.059
+		InclinationToRelativePlane_degrees	1.075
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			27553.843872
+
+CelestialBody Deimos
+Mass_kg								1.4762e15
+Radii_km							7.5	6.1	5.5
+Albedo								.068
+SpectralType						D
+Orbit
+	ParentBody							Mars
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					23458
+		Eccentricity						.0002
+		ArgumentOfPeriapsis_degrees			260.729
+		LongitudeOfAscendingNode_degrees	24.525
+		MeanAnomaly_degrees					325.329
+		InclinationToRelativePlane_degrees	1.788
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			109123.2
+
+CelestialBody Vesta
+Mass_kg								2.59076e20
+Radii_km							286.3	278.6	223.2
+Albedo								.24
+SpectralType						V
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2010
+		SemiMajorAxis_km					353268000
+		Eccentricity						.08862
+		ArgumentOfPeriapsis_degrees			149.84
+		LongitudeOfAscendingNode_degrees	103.91
+		MeanAnomaly_degrees					307.80
+		InclinationToRelativePlane_degrees	7.134
+Rotation
+	SiderealRotationPeriod_s			19232.64
+
+CelestialBody Iris
+Mass_kg								1.62e19
+Radii_km							120	100	100
+Albedo								.277
+SpectralType						S
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2005
+		SemiMajorAxis_km					356798000
+		Eccentricity						.231
+		ArgumentOfPeriapsis_degrees			145.440
+		LongitudeOfAscendingNode_degrees	259.727
+		MeanAnomaly_degrees					269.531
+		InclinationToRelativePlane_degrees	5.527
+Rotation
+	AxialTilt_degrees					85
+	SiderealRotationPeriod_s			25704
+
+CelestialBody Massalia
+Mass_kg								5.67e18
+Radii_km							80	72.5	66
+Albedo								.210
+SpectralType						S
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					360305000
+		Eccentricity						.143
+		ArgumentOfPeriapsis_degrees			255.578
+		LongitudeOfAscendingNode_degrees	206.530
+		MeanAnomaly_degrees					161.641
+		InclinationToRelativePlane_degrees	.707
+Rotation
+	AxialTilt_degrees					45
+	SiderealRotationPeriod_s			29152.8
+
+CelestialBody Astraea
+Mass_kg								2.9e18
+Radii_km							83.5	61.5	41
+Albedo								.227
+SpectralType						S
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2005
+		SemiMajorAxis_km					384945000
+		Eccentricity						.193
+		ArgumentOfPeriapsis_degrees			357.530
+		LongitudeOfAscendingNode_degrees	141.690
+		MeanAnomaly_degrees					194.442
+		InclinationToRelativePlane_degrees	5.369
+Rotation
+	SiderealRotationPeriod_s			60483.6
+
+CelestialBody Egeria
+Mass_kg								1.63e19
+Radius_km							107.4
+Albedo								.083
+SpectralType						G
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					385336000
+		Eccentricity						.085
+		ArgumentOfPeriapsis_degrees			81.401
+		LongitudeOfAscendingNode_degrees	43.305
+		MeanAnomaly_degrees					339.787
+		InclinationToRelativePlane_degrees	16.540
+Rotation
+	SiderealRotationPeriod_s			25362
+
+CelestialBody Eunomia
+Mass_kg								3.12e19
+Radii_km							178.5	127.5	106
+Albedo								.209
+SpectralType						S
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2006
+		SemiMajorAxis_km					395429000
+		Eccentricity						.187
+		ArgumentOfPeriapsis_degrees			97.909
+		LongitudeOfAscendingNode_degrees	293.273
+		MeanAnomaly_degrees					286.102
+		InclinationToRelativePlane_degrees	11.738
+Rotation
+	SiderealRotationPeriod_s			21898.8
+
+CelestialBody Mathilde
+Mass_kg								1.033e17
+Radii_km							66	48	46
+Albedo								0.0436
+SpectralType						C
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2011
+		SemiMajorAxis_km					395913257
+		Eccentricity						0.26679620
+		ArgumentOfPeriapsis_degrees			157.36198
+		LongitudeOfAscendingNode_degrees	179.61628
+		MeanAnomaly_degrees					118.514244
+		InclinationToRelativePlane_degrees	6.743283
+Rotation
+	SiderealRotationPeriod_s			1503880
+
+CelestialBody Ganymed
+Mass_kg								3.3e16
+Radius_km							17.14
+Albedo								.17
+SpectralType						S
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					398198000
+		Eccentricity						.537
+		ArgumentOfPeriapsis_degrees			132.429
+		LongitudeOfAscendingNode_degrees	215.699
+		MeanAnomaly_degrees					152.459
+		InclinationToRelativePlane_degrees	26.644
+Rotation
+	SiderealRotationPeriod_s			37130.4
+
+CelestialBody Juno
+Mass_kg								2.67e19
+Radii_km							160	133.5	100
+Albedo								.238
+SpectralType						S
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2008
+		SemiMajorAxis_km					399725000
+		Eccentricity						.02559
+		ArgumentOfPeriapsis_degrees			247.93
+		LongitudeOfAscendingNode_degrees	169.96
+		MeanAnomaly_degrees					256.8
+		InclinationToRelativePlane_degrees	12.968
+Rotation
+	SiderealRotationPeriod_s			25956
+
+CelestialBody Eugenia
+Mass_kg								5.69e18
+Radii_km							116	96.5	80.5
+Albedo								.040
+SpectralType						F
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2005
+		SemiMajorAxis_km					406897000
+		Eccentricity						.082
+		ArgumentOfPeriapsis_degrees			85.137
+		LongitudeOfAscendingNode_degrees	147.939
+		MeanAnomaly_degrees					45.254
+		InclinationToRelativePlane_degrees	6.610
+Rotation
+	AxialTilt_degrees					117
+	SiderealRotationPeriod_s			20516.4
+
+CelestialBody Petit-Prince
+Mass_kg								1.2e15
+Radius_km							6.5
+Albedo								.040
+SpectralType						F
+Orbit
+	ParentBody							Eugenia
+	Elements
+		Epoch_JulianYears					1998
+		SemiMajorAxis_km					1184
+		Eccentricity						.0100
+		InclinationToRelativePlane_degrees	8.0
+Rotation
+	SiderealRotationPeriod_s			411780
+
+CelestialBody Paranal
+Mass_kg								1.3e14
+Radius_km							3
+Albedo								.040
+SpectralType						F
+Orbit
+	ParentBody							Eugenia
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					700
+Rotation
+	SiderealRotationPeriod_s			406000
+
+CelestialBody Ceres
+Mass_kg								9.393e20
+Radii_km							482.6	480.6	445.6
+Albedo								.090
+SpectralType						C
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2014
+		SemiMajorAxis_km					414010000
+		Eccentricity						.075823
+		ArgumentOfPeriapsis_degrees			72.5220
+		LongitudeOfAscendingNode_degrees	80.3293
+		MeanAnomaly_degrees					95.9891
+		InclinationToRelativePlane_degrees	10.593
+Rotation
+	AxialTilt_degrees					4
+	SiderealRotationPeriod_s			32667.012
+
+CelestialBody Thisbe
+Mass_kg								1.83e19
+Radii_km							127.5	116	96.5
+Albedo								.067
+SpectralType						B
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2006
+		SemiMajorAxis_km					414025
+		Eccentricity						.165
+		ArgumentOfPeriapsis_degrees			36.591
+		LongitudeOfAscendingNode_degrees	276.765
+		MeanAnomaly_degrees					165.454
+		InclinationToRelativePlane_degrees	5.219
+Rotation
+	SiderealRotationPeriod_s			21744
+
+CelestialBody Herculina
+Mass_kg								2.29e19
+Radii_km							131.5	109	107.5
+Albedo								.16
+SpectralType						S
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2003
+		SemiMajorAxis_km					414682604.818727
+		Eccentricity						.1777919
+		ArgumentOfPeriapsis_degrees			76.86717
+		LongitudeOfAscendingNode_degrees	107.65510
+		MeanAnomaly_degrees					142.15781
+		InclinationToRelativePlane_degrees	16.30843
+Rotation
+	SiderealRotationPeriod_s			33857.8236
+
+CelestialBody Pallas
+Mass_kg								2.11e20
+Radii_km							291	278	250
+Albedo								.159
+SpectralType						B
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2010
+		SemiMajorAxis_km					414700000
+		Eccentricity						.231
+		ArgumentOfPeriapsis_degrees			310.15
+		LongitudeOfAscendingNode_degrees	173.12
+		MeanAnomaly_degrees					96.15
+		InclinationToRelativePlane_degrees	34.841
+Rotation
+	AxialTilt_degrees					78
+	SiderealRotationPeriod_s			28127.52
+
+CelestialBody Kleopatra
+Mass_kg								4.64e18
+Radii_km							108.5	47	40.5
+Albedo								.1068
+SpectralType						M
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2005
+		SemiMajorAxis_km					417796000
+		Eccentricity						.252
+		ArgumentOfPeriapsis_degrees			179.099
+		LongitudeOfAscendingNode_degrees	215.672
+		MeanAnomaly_degrees					55.259
+		InclinationToRelativePlane_degrees	13.136
+Rotation
+	SiderealRotationPeriod_s			19386
+
+CelestialBody Cleoselene
+Mass_kg								1.23e13
+Radius_km							1.5
+Albedo								.1068
+SpectralType						M
+Orbit
+	ParentBody							Kleopatra
+	Elements
+		SemiMajorAxis_km					200
+
+CelestialBody Alexhelios
+Mass_kg								5.68e13
+Radius_km							2.5
+Albedo								.1068
+SpectralType						M
+Orbit
+	ParentBody							Kleopatra
+	Elements
+		SemiMajorAxis_km					420
+
+CelestialBody Ida
+Mass_kg								4.2e16
+Radii_km							26.8	12.0	7.6
+Albedo								.081
+SpectralType						S
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2008
+		SemiMajorAxis_km					428150000
+		Eccentricity						.0452
+		ArgumentOfPeriapsis_degrees			108.754
+		LongitudeOfAscendingNode_degrees	324.218
+		MeanAnomaly_degrees					191.869
+		InclinationToRelativePlane_degrees	1.138
+Rotation
+	SiderealRotationPeriod_s			16668
+
+CelestialBody Dactyl
+Mass_kg								3.72e12
+Radii_km							.8	.7	.6
+Albedo								.073
+SpectralType						S
+Orbit
+	ParentBody							Ida
+	Elements
+		Epoch_JulianYears					2008
+		SemiMajorAxis_km					90
+		Eccentricity						0
+		InclinationToRelativePlane_degrees	172
+Rotation
+	SiderealRotationPeriod_s			72358
+
+CelestialBody Kalliope
+Mass_kg								8.16e18
+Radii_km							117.5	72	62
+Albedo								.17
+SpectralType						M
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2010
+		SemiMajorAxis_km					435090000
+		Eccentricity						.10213
+		ArgumentOfPeriapsis_degrees			355.03
+		LongitudeOfAscendingNode_degrees	66.17
+		MeanAnomaly_degrees					282.54
+		InclinationToRelativePlane_degrees	13.703
+Rotation
+	AxialTilt_degrees					103
+	SiderealRotationPeriod_s			14932.8
+
+CelestialBody Linus
+Mass_kg								6e16
+Radius_km							14
+Albedo								.17
+SpectralType						M
+Orbit
+	ParentBody							Kalliope
+	Elements
+		Epoch_JulianYears					2001
+		SemiMajorAxis_km					1063
+		Eccentricity						.015
+		InclinationToRelativePlane_degrees	0
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			310690
+
+CelestialBody Psyche
+Mass_kg								2.27e19
+Radii_km							120	92.5	72.5
+Albedo								.120
+SpectralType						M
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					436921000
+		Eccentricity						.140
+		ArgumentOfPeriapsis_degrees			228.047
+		LongitudeOfAscendingNode_degrees	150.352
+		MeanAnomaly_degrees					323.379
+		InclinationToRelativePlane_degrees	3.095
+Rotation
+	SiderealRotationPeriod_s			15105.6
+
+CelestialBody Interamnia
+Mass_kg								3.90e19
+Radii_km							175.15	151.8	151.8
+Albedo								.074
+SpectralType						F
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2008
+		SemiMajorAxis_km					458068000
+		Eccentricity						.1503
+		ArgumentOfPeriapsis_degrees			95.76
+		LongitudeOfAscendingNode_degrees	280.38
+		MeanAnomaly_degrees					119.95
+		InclinationToRelativePlane_degrees	17.29
+Rotation
+	SiderealRotationPeriod_s			31417.2
+
+CelestialBody Europa (Asteroid)
+Mass_kg								3.27e19
+Radii_km							180	157.5	120
+Albedo								.058
+SpectralType						C
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2005
+		SemiMajorAxis_km					463911000
+		Eccentricity						.102
+		ArgumentOfPeriapsis_degrees			343.553
+		LongitudeOfAscendingNode_degrees	128.992
+		MeanAnomaly_degrees					70.730
+		InclinationToRelativePlane_degrees	7.466
+Rotation
+	AxialTilt_degrees					14
+	SiderealRotationPeriod_s			20278.1
+
+CelestialBody Themis
+Mass_kg								2.3e19
+Radius_km							89
+Albedo								.067
+SpectralType						B
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2010
+		SemiMajorAxis_km					468100000
+		Eccentricity						.1310
+		ArgumentOfPeriapsis_degrees			107.7
+		LongitudeOfAscendingNode_degrees	35.99
+		MeanAnomaly_degrees					146.6
+		InclinationToRelativePlane_degrees	.7595
+Rotation
+	SiderealRotationPeriod_s			30146.7
+
+CelestialBody Hygiea
+Mass_kg								8.67e19
+Radii_km							265	203.5	185
+Albedo								.0717
+SpectralType						C
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2008
+		SemiMajorAxis_km					469580000
+		Eccentricity						.117
+		ArgumentOfPeriapsis_degrees			313.19
+		LongitudeOfAscendingNode_degrees	283.45
+		MeanAnomaly_degrees					197.96
+		InclinationToRelativePlane_degrees	3.842
+Rotation
+	SiderealRotationPeriod_s			99442.8
+
+CelestialBody Euphrosyne
+Mass_kg								5.81e19
+Radii_km							127.95	112.24	74.82
+Albedo								.0543
+SpectralType						C
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2006
+		SemiMajorAxis_km					471163000
+		Eccentricity						.226
+		ArgumentOfPeriapsis_degrees			61.996
+		LongitudeOfAscendingNode_degrees	31.238
+		MeanAnomaly_degrees					14.500
+		InclinationToRelativePlane_degrees	26.316
+Rotation
+	SiderealRotationPeriod_s			19911.6
+
+CelestialBody Davida
+Mass_kg								3.84e19
+Radii_km							178.5	147	115.5
+Albedo								.066
+SpectralType						C
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2011
+		SemiMajorAxis_km					473438918.980838
+		Eccentricity						.18690453
+		ArgumentOfPeriapsis_degrees			338.17810
+		LongitudeOfAscendingNode_degrees	107.63617
+		MeanAnomaly_degrees					202.86548
+		InclinationToRelativePlane_degrees	15.942247
+Rotation
+	SiderealRotationPeriod_s			18468
+
+CelestialBody Cybele
+Mass_kg								1.78e19
+Radii_km							151	145	116
+Albedo								.071
+SpectralType						X
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2006
+		SemiMajorAxis_km					513599000
+		Eccentricity						.105
+		ArgumentOfPeriapsis_degrees			105.757
+		LongitudeOfAscendingNode_degrees	155.808
+		MeanAnomaly_degrees					279.683
+		InclinationToRelativePlane_degrees	3.548
+Rotation
+	SiderealRotationPeriod_s			14547.6
+
+CelestialBody Sylvia
+Mass_kg								1.478e19
+Radii_km							192	131	116
+Albedo								.0435
+SpectralType						X
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					522137000
+		Eccentricity						.080
+		ArgumentOfPeriapsis_degrees			266.195
+		LongitudeOfAscendingNode_degrees	73.342
+		MeanAnomaly_degrees					352.763
+		InclinationToRelativePlane_degrees	10.855
+Rotation
+	AxialTilt_degrees					29.1
+	SiderealRotationPeriod_s			18661.1112
+
+CelestialBody Remus
+Mass_kg								7.3e14
+Radius_km							7
+Albedo								.0435
+SpectralType						X
+Orbit
+	ParentBody							Sylvia
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					706.5
+		Eccentricity						.027
+		InclinationToRelativePlane_degrees	2.0
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			119130
+
+CelestialBody Romulus
+Mass_kg								9.3e14
+Radius_km							9
+Albedo								.0435
+SpectralType						X
+Orbit
+	ParentBody							Sylvia
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					1357
+		Eccentricity						.006
+		InclinationToRelativePlane_degrees	1.7
+Rotation
+	SiderealRotationPeriod_s			315330
+
+CelestialBody Jupiter
+Mass_kg								1.8986e27
+Radii_km							71492	71492	66854
+Albedo								.343
+IsGasComposition					true
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					778279958.782931433
+		Eccentricity						.04853590
+		ArgumentOfPeriapsis_degrees			14.27495244
+		LongitudeOfAscendingNode_degrees	34.33479152
+		MeanAnomaly_degrees					100.29282654
+		InclinationToRelativePlane_degrees	1.29861416
+Rotation
+	AxialTilt_degrees					3.13
+	SiderealRotationPeriod_s			35370
+RingSystem
+	StartRadius_km						92000
+	EndRadius_km						226000
+Atmosphere
+	Composition
+		Hydrogen			.898
+		Helium				.102
+		Methane				.003000
+		Ammonia				.000260
+		Hydrogen Deuteride	.000028
+		Ethane				.0000058
+		Water				.0000040
+
+CelestialBody Metis
+Mass_kg								3.6e16
+Radii_km							30	20	17
+Albedo								.061
+SpectralType						C
+Orbit
+	ParentBody							Jupiter
+	Elements
+		Epoch_JulianYears					1997
+		SemiMajorAxis_km					128000
+		Eccentricity						.0012
+		ArgumentOfPeriapsis_degrees			297.11
+		LongitudeOfAscendingNode_degrees	146.912
+		MeanAnomaly_degrees					276.047
+		InclinationToRelativePlane_degrees	.019
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			25469
+
+CelestialBody Adrastea
+Mass_kg								2e15
+Radii_km							10	8	7
+Albedo								.10
+SpectralType						C
+Orbit
+	ParentBody							Jupiter
+	Elements
+		Epoch_JulianYears					1997
+		SemiMajorAxis_km					129000
+		Eccentricity						.0018
+		ArgumentOfPeriapsis_degrees			328.047
+		LongitudeOfAscendingNode_degrees	228.378
+		MeanAnomaly_degrees					135.673
+		InclinationToRelativePlane_degrees	.054
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			25770
+
+CelestialBody Amalthea
+Mass_kg								2.08e18
+Radii_km							175	73	64
+Albedo								.09
+SpectralType						C
+Orbit
+	ParentBody							Jupiter
+	Elements
+		Epoch_JulianYears					1997
+		SemiMajorAxis_km					181400
+		Eccentricity						.0032
+		ArgumentOfPeriapsis_degrees			155.873
+		LongitudeOfAscendingNode_degrees	108.946
+		MeanAnomaly_degrees					185.194
+		InclinationToRelativePlane_degrees	.038
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			43043
+
+CelestialBody Thebe
+Mass_kg								4.3e17
+Radii_km							58	49	42
+Albedo								.05
+SpectralType						C
+Orbit
+	ParentBody							Jupiter
+	Elements
+		Epoch_JulianYears					1997
+		SemiMajorAxis_km					221900
+		Eccentricity						.0176
+		ArgumentOfPeriapsis_degrees			234.269
+		LongitudeOfAscendingNode_degrees	235.694
+		MeanAnomaly_degrees					135.956
+		InclinationToRelativePlane_degrees	1.08
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			58280
+
+CelestialBody Io
+Mass_kg								8.931938e22
+Radii_km							1830.0	1818.7	1815.3
+Albedo								.62
+Orbit
+	ParentBody							Jupiter
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					421800
+		Eccentricity						.0041
+		ArgumentOfPeriapsis_degrees			84.129
+		LongitudeOfAscendingNode_degrees	43.977
+		MeanAnomaly_degrees					342.021
+		InclinationToRelativePlane_degrees	.036
+Rotation
+	AxialTilt_degrees					0.
+	SiderealRotationPeriod_s			1528416
+
+CelestialBody Europa
+Mass_kg								4.799844e22
+Radius_km							1560.8
+Albedo								.68
+Orbit
+	ParentBody							Jupiter
+	Elements
+		Epoch_JulianYears					1997
+		SemiMajorAxis_km					671100
+		Eccentricity						.0094
+		ArgumentOfPeriapsis_degrees			88.97
+		LongitudeOfAscendingNode_degrees	219.106
+		MeanAnomaly_degrees					171.016
+		InclinationToRelativePlane_degrees	.466
+Rotation
+	AxialTilt_degrees					.016
+	SiderealRotationPeriod_s			306806
+
+CelestialBody Ganymede
+Mass_kg								1.4819e23
+Radius_km							2634.1
+Albedo								.44
+Orbit
+	ParentBody							Jupiter
+	Elements
+		Epoch_JulianYears					1997
+		SemiMajorAxis_km					1070400
+		Eccentricity						.0013
+		ArgumentOfPeriapsis_degrees			192.417
+		LongitudeOfAscendingNode_degrees	63.552
+		MeanAnomaly_degrees					317.54
+		InclinationToRelativePlane_degrees	.177
+Rotation
+	AxialTilt_degrees					.068
+	SiderealRotationPeriod_s			618192
+
+CelestialBody Callisto
+Mass_kg								1.075938e23
+Radius_km							2410.3
+Albedo								.19
+Orbit
+	ParentBody							Jupiter
+	Elements
+		Epoch_JulianYears					1997
+		SemiMajorAxis_km					1882700
+		Eccentricity						.0074
+		ArgumentOfPeriapsis_degrees			52.643
+		LongitudeOfAscendingNode_degrees	298.848
+		MeanAnomaly_degrees					181.408
+		InclinationToRelativePlane_degrees	.192
+Rotation
+	AxialTilt_degrees					.356
+	SiderealRotationPeriod_s			1.442e6
+
+CelestialBody Hektor
+Mass_kg								9.95e18
+Radii_km							185	97.5	97.5
+Albedo								.025
+SpectralType						D
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					781183000
+		Eccentricity						.024
+		ArgumentOfPeriapsis_degrees			183.579
+		LongitudeOfAscendingNode_degrees	342.791
+		MeanAnomaly_degrees					94.752
+		InclinationToRelativePlane_degrees	18.198
+Rotation
+	SiderealRotationPeriod_s			24912
+
+CelestialBody Hektor I
+Mass_kg								1.476e15
+Radius_km							6
+Albedo								.025
+SpectralType						D
+Orbit
+	ParentBody							Hektor
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					623.5
+Rotation
+	SiderealRotationPeriod_s			256180
+
+CelestialBody Patroclus
+Mass_kg								9.059e17
+Radius_km							71.57
+Albedo								.0471
+SpectralType						P
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2011
+		SemiMajorAxis_km					782703840
+		Eccentricity						.1399297
+		ArgumentOfPeriapsis_degrees			307.90775
+		LongitudeOfAscendingNode_degrees	44.36649
+		MeanAnomaly_degrees					331.77002
+		InclinationToRelativePlane_degrees	22.05276
+Rotation
+	SiderealRotationPeriod_s			370051.2
+
+CelestialBody Menoetius
+Mass_kg								4.540e17
+Radius_km							56
+Albedo								.0471
+SpectralType						P
+Orbit
+	ParentBody							Patroclus
+	Elements
+		Epoch_JulianYears					2011
+		SemiMajorAxis_km					680
+		Eccentricity						0
+Rotation
+	SiderealRotationPeriod_s			370051.2
+
+CelestialBody Saturn
+Mass_kg								5.6846e26
+Radii_km							60268	60268	54364
+Albedo								.342
+IsGasComposition					true
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					1427387908.254541281
+		Eccentricity						.05550825
+		ArgumentOfPeriapsis_degrees			92.86136063
+		LongitudeOfAscendingNode_degrees	50.07571329
+		MeanAnomaly_degrees					113.63998702
+		InclinationToRelativePlane_degrees	2.49424102
+Rotation
+	AxialTilt_degrees					26.73
+	SiderealRotationPeriod_s			38052
+RingSystem
+	StartRadius_km						66900
+	EndRadius_km						140180
+Atmosphere
+	Composition
+		Hydrogen			.963
+		Helium				.0325
+		Hydrogen Deuteride	.000110
+		Ethane				.000007
+
+CelestialBody Pan
+Mass_kg								4.95e15
+Radii_km							17	15.5	10
+Albedo								.5
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					133585
+		Eccentricity						0
+		ArgumentOfPeriapsis_degrees			103.331
+		LongitudeOfAscendingNode_degrees	52.076
+		MeanAnomaly_degrees					351.187
+		InclinationToRelativePlane_degrees	0
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			49680
+
+CelestialBody Daphnis
+Mass_kg								8.4e13
+Radii_km							4.5	4	3
+Albedo								.5
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					136504
+		Eccentricity						0
+		ArgumentOfPeriapsis_degrees			266.931
+		LongitudeOfAscendingNode_degrees	132.867
+		MeanAnomaly_degrees					113.79
+		InclinationToRelativePlane_degrees	.003
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			51321.6
+
+CelestialBody Atlas
+Mass_kg								6.6e15
+Radii_km							20.5	17.5	9.5
+Albedo								.8
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					137774
+		Eccentricity						.001
+		ArgumentOfPeriapsis_degrees			210.851
+		LongitudeOfAscendingNode_degrees	236.422
+		MeanAnomaly_degrees					283.282
+		InclinationToRelativePlane_degrees	.003
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			52012.8
+
+CelestialBody Prometheus
+Mass_kg								1.595e17
+Radii_km							68	39.5	29.5
+Albedo								.5
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					139429
+		Eccentricity						.0022
+		ArgumentOfPeriapsis_degrees			37.514
+		LongitudeOfAscendingNode_degrees	319.176
+		MeanAnomaly_degrees					96.886
+		InclinationToRelativePlane_degrees	.007
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			52963.2
+
+CelestialBody Pandora
+Mass_kg								1.371e17
+Radii_km							52	40.5	32
+Albedo								.7
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					141810
+		Eccentricity						.0042
+		ArgumentOfPeriapsis_degrees			66.248
+		LongitudeOfAscendingNode_degrees	147.272
+		MeanAnomaly_degrees					125.112
+		InclinationToRelativePlane_degrees	.05
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			54345.6
+
+CelestialBody Epimetheus
+Mass_kg								5.266e17
+Radii_km							65	57	54
+Albedo								.8
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					151422
+		Eccentricity						.0161
+		ArgumentOfPeriapsis_degrees			88.975
+		LongitudeOfAscendingNode_degrees	192.762
+		MeanAnomaly_degrees					80.377
+		InclinationToRelativePlane_degrees	.353
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			60048
+
+CelestialBody Janus
+Mass_kg								1.8975e18
+Radii_km							101.5	92.5	76.5
+Albedo								.9
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					151472
+		Eccentricity						.0098
+		ArgumentOfPeriapsis_degrees			16.012
+		LongitudeOfAscendingNode_degrees	154.175
+		MeanAnomaly_degrees					17.342
+		InclinationToRelativePlane_degrees	.165
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			60048
+
+CelestialBody Aegaeon
+Mass_kg								1e11
+Radius_km							.25
+Albedo								.5
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					167425
+		Eccentricity						.0002
+		ArgumentOfPeriapsis_degrees			152.905
+		LongitudeOfAscendingNode_degrees	317.202
+		MeanAnomaly_degrees					322.771
+		InclinationToRelativePlane_degrees	.001
+Rotation
+	AxialTilt_degrees					.001
+	SiderealRotationPeriod_s			69811.2
+
+CelestialBody Mimas
+Mass_kg								3.7493e19
+Radii_km							208	196.5	190.5
+Albedo								.6
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					185539
+		Eccentricity						.0196
+		ArgumentOfPeriapsis_degrees			332.499
+		LongitudeOfAscendingNode_degrees	173.027
+		MeanAnomaly_degrees					14.848
+		InclinationToRelativePlane_degrees	1.574
+Rotation
+	AxialTilt_degrees					.002
+	SiderealRotationPeriod_s			81388.8
+
+CelestialBody Methone
+Mass_kg								2e13
+Radius_km							1.6
+Albedo								.6
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					194402
+		Eccentricity						0
+		ArgumentOfPeriapsis_degrees			134.636
+		LongitudeOfAscendingNode_degrees	313.562
+		MeanAnomaly_degrees					71.189
+		InclinationToRelativePlane_degrees	.013
+Rotation
+	AxialTilt_degrees					.002
+	SiderealRotationPeriod_s			87264
+
+CelestialBody Anthe
+Mass_kg								7e12
+Radius_km							.5
+Albedo								.5
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					196888
+		Eccentricity						.0011
+		ArgumentOfPeriapsis_degrees			138.902
+		LongitudeOfAscendingNode_degrees	287.852
+		MeanAnomaly_degrees					190.473
+		InclinationToRelativePlane_degrees	.015
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			89510.4
+
+CelestialBody Pallene
+Mass_kg								5e13
+Radii_km							3	3	2
+Albedo								.5
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					212282
+		Eccentricity						.004
+		ArgumentOfPeriapsis_degrees			16.074
+		LongitudeOfAscendingNode_degrees	123.18
+		MeanAnomaly_degrees					356.229
+		InclinationToRelativePlane_degrees	.001
+Rotation
+	AxialTilt_degrees					.001
+	SiderealRotationPeriod_s			99705.6
+
+CelestialBody Enceladus
+Mass_kg								1.08022e20
+Radii_km							256.5	251.5	248.5
+Albedo								.99
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					238042
+		Eccentricity						0
+		ArgumentOfPeriapsis_degrees			.076
+		LongitudeOfAscendingNode_degrees	342.507
+		MeanAnomaly_degrees					199.686
+		InclinationToRelativePlane_degrees	.003
+Rotation
+	AxialTilt_degrees					.002
+	SiderealRotationPeriod_s			118368
+
+CelestialBody Tethys
+Mass_kg								6.17449e20
+Radii_km							538.5	528.5	526.5
+Albedo								.8
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					294672
+		Eccentricity						.0001
+		ArgumentOfPeriapsis_degrees			45.202
+		LongitudeOfAscendingNode_degrees	259.842
+		MeanAnomaly_degrees					243.367
+		InclinationToRelativePlane_degrees	1.091
+Rotation
+	AxialTilt_degrees					.001
+	SiderealRotationPeriod_s			163123.2
+
+CelestialBody Telesto
+Mass_kg								9.41e15
+Radii_km							16.5	12	10
+Albedo								.9
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					294720
+		Eccentricity						.0002
+		ArgumentOfPeriapsis_degrees			119.135
+		LongitudeOfAscendingNode_degrees	229.182
+		MeanAnomaly_degrees					260.157
+		InclinationToRelativePlane_degrees	1.18
+Rotation
+	AxialTilt_degrees					.001
+	SiderealRotationPeriod_s			163123.2
+
+CelestialBody Calypso
+Mass_kg								6.3e15
+Radii_km							15.1	11.5	7
+Albedo								.9
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					294721
+		Eccentricity						.0005
+		ArgumentOfPeriapsis_degrees			17.47
+		LongitudeOfAscendingNode_degrees	314.226
+		MeanAnomaly_degrees					156.66
+		InclinationToRelativePlane_degrees	1.5
+Rotation
+	AxialTilt_degrees					.001
+	SiderealRotationPeriod_s			163123.2
+
+CelestialBody Polydeuces
+Mass_kg								3e13
+Radii_km							1.5	1	.5
+Albedo								.7
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					377222
+		Eccentricity						.0191
+		ArgumentOfPeriapsis_degrees			311.847
+		LongitudeOfAscendingNode_degrees	67.936
+		MeanAnomaly_degrees					89.307
+		InclinationToRelativePlane_degrees	.175
+Rotation
+	AxialTilt_degrees					.005
+	SiderealRotationPeriod_s			236476.8
+
+CelestialBody Dione
+Mass_kg								1.093452e21
+Radii_km							564	561.5	559.5
+Albedo								.7
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					377415
+		Eccentricity						.0022
+		ArgumentOfPeriapsis_degrees			284.315
+		LongitudeOfAscendingNode_degrees	290.415
+		MeanAnomaly_degrees					322.232
+		InclinationToRelativePlane_degrees	.028
+Rotation
+	AxialTilt_degrees					.005
+	SiderealRotationPeriod_s			236476.8
+
+CelestialBody Helene
+Mass_kg								2.446e16
+Radii_km							21.5	17	13
+Albedo								.7
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					377444
+		Eccentricity						0
+		ArgumentOfPeriapsis_degrees			33.134
+		LongitudeOfAscendingNode_degrees	163.112
+		MeanAnomaly_degrees					43.186
+		InclinationToRelativePlane_degrees	.213
+Rotation
+	AxialTilt_degrees					.005
+	SiderealRotationPeriod_s			236476.8
+
+CelestialBody Rhea
+Mass_kg								2.306518e21
+Radii_km							765	763	762.5
+Albedo								.7
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					527068
+		Eccentricity						.0002
+		ArgumentOfPeriapsis_degrees			241.619
+		LongitudeOfAscendingNode_degrees	351.042
+		MeanAnomaly_degrees					179.781
+		InclinationToRelativePlane_degrees	.333
+Rotation
+	AxialTilt_degrees					.036
+	SiderealRotationPeriod_s			390355.2
+
+CelestialBody Titan
+Mass_kg								1.3452e23
+Radius_km							2575.5
+Albedo								.22
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					1221865
+		Eccentricity						.0288
+		ArgumentOfPeriapsis_degrees			180.532
+		LongitudeOfAscendingNode_degrees	28.06
+		MeanAnomaly_degrees					163.31
+		InclinationToRelativePlane_degrees	.306
+Rotation
+	AxialTilt_degrees					.629
+	SiderealRotationPeriod_s			1378080
+Atmosphere
+	SurfacePressure_Pa					146700
+	Composition
+		Nitrogen			.984
+		Methane				.0014
+		Hydrogen			.002
+
+CelestialBody Hyperion
+Mass_kg								5.620e18
+Radii_km							180	133	102.5
+Albedo								.3
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					1500933
+		Eccentricity						.0232
+		ArgumentOfPeriapsis_degrees			303.178
+		LongitudeOfAscendingNode_degrees	263.847
+		MeanAnomaly_degrees					86.342
+		InclinationToRelativePlane_degrees	.615
+Rotation
+	AxialTilt_degrees					.564
+	SiderealRotationPeriod_s			1838592
+
+CelestialBody Iapetus
+Mass_kg								1.805635e21
+Radii_km							745.5	745.5	712
+Albedo								.5
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					3560854
+		Eccentricity						.0293
+		ArgumentOfPeriapsis_degrees			271.606
+		LongitudeOfAscendingNode_degrees	81.105
+		MeanAnomaly_degrees					201.789
+		InclinationToRelativePlane_degrees	8.298
+Rotation
+	AxialTilt_degrees					15.21
+	SiderealRotationPeriod_s			6854112
+
+CelestialBody Phoebe
+Mass_kg								8.292e18
+Radii_km							109.5	108.5	102
+Albedo								.08
+SpectralType						C
+Orbit
+	ParentBody							Saturn
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					12947918
+		Eccentricity						.1634
+		ArgumentOfPeriapsis_degrees			342.5
+		LongitudeOfAscendingNode_degrees	241.086
+		MeanAnomaly_degrees					53.038
+		InclinationToRelativePlane_degrees	175.243
+Rotation
+	AxialTilt_degrees					152.14
+	SiderealRotationPeriod_s			33415.2
+
+CelestialBody Uranus
+Mass_kg								8.6810e25
+Radii_km							25559	25559	24973
+Albedo								.300
+IsGasComposition					true
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					2870480873.24329
+		Eccentricity						.04685740
+		ArgumentOfPeriapsis_degrees			172.43404441
+		LongitudeOfAscendingNode_degrees	314.20276625
+		MeanAnomaly_degrees					73.96250215
+		InclinationToRelativePlane_degrees	.77298127
+Rotation
+	AxialTilt_degrees					97.77
+	SiderealRotationPeriod_s			-62063.712
+RingSystem
+	StartRadius_km						26840
+	EndRadius_km						103000
+Atmosphere
+	Composition
+		Hydrogen			.825
+		Helium				.152
+		Methane				.023
+		Hydrogen Deuteride	.000148
+
+CelestialBody Cordelia
+Mass_kg								4.4e16
+Radii_km							25	18	18
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1986
+		SemiMajorAxis_km					49800
+		Eccentricity						.0003
+		ArgumentOfPeriapsis_degrees			136.827
+		LongitudeOfAscendingNode_degrees	38.374
+		MeanAnomaly_degrees					254.805
+		InclinationToRelativePlane_degrees	.085
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			28944
+
+CelestialBody Ophelia
+Mass_kg								5.3e16
+Radii_km							27	19	19
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1986
+		SemiMajorAxis_km					53800
+		Eccentricity						.0099
+		ArgumentOfPeriapsis_degrees			17.761
+		LongitudeOfAscendingNode_degrees	164.048
+		MeanAnomaly_degrees					116.259
+		InclinationToRelativePlane_degrees	.104
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			32486
+
+CelestialBody Bianca
+Mass_kg								9.2e16
+Radii_km							32	23	23
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1986
+		SemiMajorAxis_km					59200
+		Eccentricity						.0009
+		ArgumentOfPeriapsis_degrees			8.293
+		LongitudeOfAscendingNode_degrees	93.22
+		MeanAnomaly_degrees					138.486
+		InclinationToRelativePlane_degrees	.193
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			37584
+
+CelestialBody Cressida
+Mass_kg								3.4e17
+Radii_km							46	37	37
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1986
+		SemiMajorAxis_km					61800
+		Eccentricity						.0004
+		ArgumentOfPeriapsis_degrees			44.236
+		LongitudeOfAscendingNode_degrees	99.403
+		MeanAnomaly_degrees					233.795
+		InclinationToRelativePlane_degrees	.006
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			40090
+
+CelestialBody Desdemona
+Mass_kg								1.8e17
+Radii_km							45	27	27
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1986
+		SemiMajorAxis_km					62700
+		Eccentricity						.0001
+		ArgumentOfPeriapsis_degrees			183.285
+		LongitudeOfAscendingNode_degrees	306.089
+		MeanAnomaly_degrees					184.627
+		InclinationToRelativePlane_degrees	.113
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			40954
+
+CelestialBody Juliet
+Mass_kg								5.6e17
+Radii_km							75	37	37
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1986
+		SemiMajorAxis_km					64400
+		Eccentricity						.0007
+		ArgumentOfPeriapsis_degrees			223.819
+		LongitudeOfAscendingNode_degrees	200.155
+		MeanAnomaly_degrees					244.696
+		InclinationToRelativePlane_degrees	.065
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			42595
+
+CelestialBody Portia
+Mass_kg								1.7e18
+Radii_km							78	63	63
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1986
+		SemiMajorAxis_km					66100
+		Eccentricity						.0001
+		ArgumentOfPeriapsis_degrees			222.433
+		LongitudeOfAscendingNode_degrees	260.067
+		MeanAnomaly_degrees					218.312
+		InclinationToRelativePlane_degrees	.059
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			44323
+
+CelestialBody Rosalind
+Mass_kg								2.5e17
+Radius_km							36
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1986
+		SemiMajorAxis_km					69900
+		Eccentricity						.0001
+		ArgumentOfPeriapsis_degrees			140.477
+		LongitudeOfAscendingNode_degrees	12.847
+		MeanAnomaly_degrees					136.181
+		InclinationToRelativePlane_degrees	.279
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			48211
+
+CelestialBody Cupid
+Mass_kg								3.8e15
+Radius_km							9
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					74392
+		Eccentricity						.0013
+		ArgumentOfPeriapsis_degrees			247.608
+		LongitudeOfAscendingNode_degrees	182.793
+		MeanAnomaly_degrees					163.83
+		InclinationToRelativePlane_degrees	.099
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			52963
+
+CelestialBody Belinda
+Mass_kg								4.9e17
+Radii_km							64	32	32
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1986
+		SemiMajorAxis_km					75300
+		Eccentricity						.0001
+		ArgumentOfPeriapsis_degrees			42.406
+		LongitudeOfAscendingNode_degrees	279.337
+		MeanAnomaly_degrees					357.224
+		InclinationToRelativePlane_degrees	.031
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			53914
+
+CelestialBody Perdita
+Mass_kg								1.8e16
+Radius_km							15
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					76417
+		Eccentricity						.0116
+		ArgumentOfPeriapsis_degrees			235.925
+		LongitudeOfAscendingNode_degrees	309.376
+		MeanAnomaly_degrees					192.405
+		InclinationToRelativePlane_degrees	.47
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			55123
+
+CelestialBody Puck
+Mass_kg								2.90e18
+Radius_km							81
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1986
+		SemiMajorAxis_km					86000
+		Eccentricity						.0001
+		ArgumentOfPeriapsis_degrees			177.094
+		LongitudeOfAscendingNode_degrees	268.734
+		MeanAnomaly_degrees					245.796
+		InclinationToRelativePlane_degrees	.319
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			65837
+
+CelestialBody Mab
+Mass_kg								1e16
+Radius_km							12.5
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					2004
+		SemiMajorAxis_km					97736
+		Eccentricity						.0025
+		ArgumentOfPeriapsis_degrees			249.565
+		LongitudeOfAscendingNode_degrees	350.737
+		MeanAnomaly_degrees					273.769
+		InclinationToRelativePlane_degrees	.134
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			79747
+
+CelestialBody Miranda
+Mass_kg								6.59e19
+Radii_km							240.5	234	233
+Albedo								.27
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1980
+		SemiMajorAxis_km					129900
+		Eccentricity						.0013
+		ArgumentOfPeriapsis_degrees			68.312
+		LongitudeOfAscendingNode_degrees	326.438
+		MeanAnomaly_degrees					311.33
+		InclinationToRelativePlane_degrees	4.338
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			122124.5856
+
+CelestialBody Ariel
+Mass_kg								1.353e21
+Radii_km							581	578	577.5
+Albedo								.35
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1980
+		SemiMajorAxis_km					190900
+		Eccentricity						.0012
+		ArgumentOfPeriapsis_degrees			115.349
+		LongitudeOfAscendingNode_degrees	22.394
+		MeanAnomaly_degrees					39.481
+		InclinationToRelativePlane_degrees	.041
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			217728
+
+CelestialBody Umbriel
+Mass_kg								1.172e21
+Radius_km							584.7
+Albedo								.19
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1980
+		SemiMajorAxis_km					266000
+		Eccentricity						.0039
+		ArgumentOfPeriapsis_degrees			84.709
+		LongitudeOfAscendingNode_degrees	33.485
+		MeanAnomaly_degrees					12.469
+		InclinationToRelativePlane_degrees	.128
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			358041.6
+
+CelestialBody Titania
+Mass_kg								3.527e21
+Radius_km							788.4
+Albedo								.28
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1980
+		SemiMajorAxis_km					436300
+		Eccentricity						.0011
+		ArgumentOfPeriapsis_degrees			284.4
+		LongitudeOfAscendingNode_degrees	99.771
+		MeanAnomaly_degrees					24.614
+		InclinationToRelativePlane_degrees	.079
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			752218.6176
+
+CelestialBody Oberon
+Mass_kg								3.014e21
+Radius_km							761.4
+Albedo								.25
+SpectralType						C
+Orbit
+	ParentBody							Uranus
+	Elements
+		Epoch_JulianYears					1980
+		SemiMajorAxis_km					583500
+		Eccentricity						.0014
+		ArgumentOfPeriapsis_degrees			104.4
+		LongitudeOfAscendingNode_degrees	279.771
+		MeanAnomaly_degrees					283.088
+		InclinationToRelativePlane_degrees	.068
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			1163223.4176
+
+CelestialBody Neptune
+Mass_kg								1.0243e26
+Radii_km							24764	24764	24341
+Albedo								.290
+IsGasComposition					true
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					4498337289.94705
+		Eccentricity						.00895439
+		ArgumentOfPeriapsis_degrees			46.68158724
+		LongitudeOfAscendingNode_degrees	304.22289287
+		MeanAnomaly_degrees					131.78635853
+		InclinationToRelativePlane_degrees	1.77005520
+Rotation
+	AxialTilt_degrees					28.32
+	SiderealRotationPeriod_s			58000.32
+RingSystem
+	StartRadius_km						40900
+	EndRadius_km						62932
+Atmosphere
+	Composition
+		Hydrogen			.800
+		Helium				.190
+		Methane				.015
+		Hydrogen Deuteride	.000192
+		Ethane				.0000015
+
+CelestialBody Naiad
+Mass_kg								1.9e17
+Radii_km							48	30	26
+Albedo								.07
+SpectralType						C
+Orbit
+	ParentBody							Neptune
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					48227
+		Eccentricity						.0003
+		ArgumentOfPeriapsis_degrees			2.045
+		LongitudeOfAscendingNode_degrees	42.279
+		MeanAnomaly_degrees					30.035
+		InclinationToRelativePlane_degrees	4.691
+Rotation
+	AxialTilt_degrees					.448
+	SiderealRotationPeriod_s			25401.6
+
+CelestialBody Thalassa
+Mass_kg								3.5e17
+Radii_km							54	50	26
+Albedo								.09
+SpectralType						C
+Orbit
+	ParentBody							Neptune
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					50074
+		Eccentricity						.0002
+		ArgumentOfPeriapsis_degrees			237.065
+		LongitudeOfAscendingNode_degrees	145.98
+		MeanAnomaly_degrees					262.923
+		InclinationToRelativePlane_degrees	.135
+Rotation
+	AxialTilt_degrees					.449
+	SiderealRotationPeriod_s			26870.4
+
+CelestialBody Despina
+Mass_kg								2.1e18
+Radii_km							90	74	64
+Albedo								.09
+SpectralType						C
+Orbit
+	ParentBody							Neptune
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					52526
+		Eccentricity						.0002
+		ArgumentOfPeriapsis_degrees			176.857
+		LongitudeOfAscendingNode_degrees	77.06
+		MeanAnomaly_degrees					230.812
+		InclinationToRelativePlane_degrees	.068
+Rotation
+	AxialTilt_degrees					.451
+	SiderealRotationPeriod_s			28944
+
+CelestialBody Galatea
+Mass_kg								3.75e18
+Radii_km							102	92	72
+Albedo								.08
+SpectralType						C
+Orbit
+	ParentBody							Neptune
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					61953
+		Eccentricity						.0001
+		ArgumentOfPeriapsis_degrees			343.011
+		LongitudeOfAscendingNode_degrees	37.247
+		MeanAnomaly_degrees					65.999
+		InclinationToRelativePlane_degrees	.034
+Rotation
+	AxialTilt_degrees					.462
+	SiderealRotationPeriod_s			37043.508384
+
+CelestialBody Larissa
+Mass_kg								4.95e18
+Radii_km							108	102	84
+Albedo								.09
+SpectralType						C
+Orbit
+	ParentBody							Neptune
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					73548
+		Eccentricity						.0014
+		ArgumentOfPeriapsis_degrees			249.891
+		LongitudeOfAscendingNode_degrees	308.127
+		MeanAnomaly_degrees					166.246
+		InclinationToRelativePlane_degrees	.205
+Rotation
+	AxialTilt_degrees					.49
+	SiderealRotationPeriod_s			47922.046848
+
+CelestialBody Polyphemus
+Mass_kg								5e15
+Radius_km							8
+Albedo								.06
+SpectralType						C
+Orbit
+	ParentBody							Neptune
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					105283
+		Eccentricity						0
+		ArgumentOfPeriapsis_degrees			0
+		LongitudeOfAscendingNode_degrees	0
+		MeanAnomaly_degrees					302.652
+		InclinationToRelativePlane_degrees	0
+Rotation
+	AxialTilt_degrees					.448
+	SiderealRotationPeriod_s			80887.68
+
+CelestialBody Proteus
+Mass_kg								5.035e19
+Radii_km							218	208	201
+Albedo								.10
+SpectralType						C
+Orbit
+	ParentBody							Neptune
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					117646
+		Eccentricity						.0005
+		ArgumentOfPeriapsis_degrees			67.968
+		LongitudeOfAscendingNode_degrees	315.131
+		MeanAnomaly_degrees					250.938
+		InclinationToRelativePlane_degrees	.075
+Rotation
+	AxialTilt_degrees					.974
+	SiderealRotationPeriod_s			96967.996128
+
+CelestialBody Triton
+Mass_kg								2.14e22
+Radii_km							1354.5	1353	1352.5
+Albedo								.76
+SpectralType						C
+Orbit
+	ParentBody							Neptune
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					354759
+		Eccentricity						0
+		ArgumentOfPeriapsis_degrees			66.142
+		LongitudeOfAscendingNode_degrees	177.608
+		MeanAnomaly_degrees					352.257
+		InclinationToRelativePlane_degrees	156.865
+Rotation
+	AxialTilt_degrees					.01
+	SiderealRotationPeriod_s			507773
+Atmosphere
+	SurfacePressure_Pa					1.9
+	Composition
+		Nitrogen			.9982
+		Carbon Monoxide		.0012
+		Methane				.0005
+
+CelestialBody Nereid
+Mass_kg								3.1e19
+Radius_km							170
+Albedo								.16
+SpectralType						C
+Orbit
+	ParentBody							Neptune
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					5513818
+		Eccentricity						.7507
+		ArgumentOfPeriapsis_degrees			281.117
+		LongitudeOfAscendingNode_degrees	335.57
+		MeanAnomaly_degrees					216.692
+		InclinationToRelativePlane_degrees	7.09
+Rotation
+	AxialTilt_degrees					30.011
+	SiderealRotationPeriod_s			41472
+
+CelestialBody Pluto
+Mass_kg								1.305e22
+Radius_km							1184
+Albedo								.4
+SpectralType						C
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					5907150228.98826
+		Eccentricity						.24885238
+		ArgumentOfPeriapsis_degrees			224.09702598
+		LongitudeOfAscendingNode_degrees	238.96535011
+		MeanAnomaly_degrees					110.30167986
+		InclinationToRelativePlane_degrees	17.14104260
+Rotation
+	AxialTilt_degrees					119.591
+	SiderealRotationPeriod_s			-551856.672
+Atmosphere
+	SurfacePressure_Pa					.3
+	Composition
+		Nitrogen			.99
+		Methane				.01
+
+CelestialBody Charon
+Mass_kg								1.52e21
+Radius_km							603.5
+Albedo								.36
+SpectralType						C
+Orbit
+	ParentBody							Pluto
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					19591
+		Eccentricity						.0002
+		ArgumentOfPeriapsis_degrees			146.106
+		LongitudeOfAscendingNode_degrees	26.928
+		MeanAnomaly_degrees					131.07
+		InclinationToRelativePlane_degrees	.08
+Rotation
+	AxialTilt_degrees					0
+	SiderealRotationPeriod_s			551856.70656
+
+CelestialBody Styx
+Mass_kg								3e17
+Radius_km							25
+Albedo								.35
+SpectralType						C
+Orbit
+	ParentBody							Pluto
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					42393
+		Eccentricity						.0006
+		ArgumentOfPeriapsis_degrees			330.244
+		LongitudeOfAscendingNode_degrees	26.956
+		MeanAnomaly_degrees					194.546
+		InclinationToRelativePlane_degrees	.08
+Rotation
+	SiderealRotationPeriod_s			1745280
+
+CelestialBody Nix
+Mass_kg								2e18
+Radius_km							68
+Albedo								.35
+SpectralType						C
+Orbit
+	ParentBody							Pluto
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					48671
+		Eccentricity						0
+		ArgumentOfPeriapsis_degrees			324.463
+		LongitudeOfAscendingNode_degrees	203.4
+		MeanAnomaly_degrees					284.405
+		InclinationToRelativePlane_degrees	0
+Rotation
+	SiderealRotationPeriod_s			2147558.4
+
+CelestialBody Kerberos
+Mass_kg								6e16
+Radius_km							34
+Albedo								.35
+SpectralType						C
+Orbit
+	ParentBody							Pluto
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					57729
+		Eccentricity						0
+		ArgumentOfPeriapsis_degrees			160.629
+		LongitudeOfAscendingNode_degrees	305.871
+		MeanAnomaly_degrees					161.061
+		InclinationToRelativePlane_degrees	.426
+Rotation
+	SiderealRotationPeriod_s			2773440
+
+CelestialBody Hydra
+Mass_kg								4.2e17
+Radius_km							84
+Albedo								.35
+SpectralType						C
+Orbit
+	ParentBody							Pluto
+	Elements
+		Epoch_JulianYears					2000
+		SemiMajorAxis_km					64698
+		Eccentricity						.0056
+		ArgumentOfPeriapsis_degrees			153.307
+		LongitudeOfAscendingNode_degrees	113.173
+		MeanAnomaly_degrees					326.678
+		InclinationToRelativePlane_degrees	.304
+Rotation
+	SiderealRotationPeriod_s			3300998.4
+
+CelestialBody Haumea
+Mass_kg								4.006e21
+Radii_km							690	650	620
+Albedo								.804
+SpectralType						C
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2014
+		SemiMajorAxis_km					6.465e9
+		Eccentricity						0.19126
+		ArgumentOfPeriapsis_degrees			240.20
+		LongitudeOfAscendingNode_degrees	121.79
+		MeanAnomaly_degrees					209.07
+		InclinationToRelativePlane_degrees	28.19
+Rotation
+	SiderealRotationPeriod_s		14096	
+
+CelestialBody Hi'iaka
+Mass_kg								1.79e19
+Radius_km							195
+Albedo								.8
+SpectralType						C
+Orbit
+	ParentBody							Haumea
+	Elements
+		Epoch_JulianYears					2003
+		SemiMajorAxis_km					49880
+		Eccentricity						0.0513
+		ArgumentOfPeriapsis_degrees			154.1
+		LongitudeOfAscendingNode_degrees	206.766
+		MeanAnomaly_degrees					152.8
+		InclinationToRelativePlane_degrees	126.356
+
+CelestialBody Namaka
+Mass_kg								1.79e18
+Radius_km							85
+Albedo								.8
+SpectralType						C
+Orbit
+	ParentBody							Haumea
+	Elements
+		Epoch_JulianYears					2009
+		SemiMajorAxis_km					25657
+		Eccentricity						0.249
+		ArgumentOfPeriapsis_degrees			178.9
+		LongitudeOfAscendingNode_degrees	205.016
+		MeanAnomaly_degrees					178.5
+		InclinationToRelativePlane_degrees	113.013
+
+CelestialBody Makemake
+Mass_kg								5e21
+Radii_km							751	717	715
+Albedo								.81
+SpectralType						C
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2014
+		SemiMajorAxis_km					6.839e9
+		Eccentricity						0.15586
+		ArgumentOfPeriapsis_degrees			297.240
+		LongitudeOfAscendingNode_degrees	79.3659
+		MeanAnomaly_degrees					156.353
+		InclinationToRelativePlane_degrees	29.00685
+Rotation
+	SiderealRotationPeriod_s		27976	
+
+CelestialBody Eris
+Mass_kg								1.67e22
+Radius_km							1163
+Albedo								.96
+SpectralType						C
+Orbit
+	ParentBody							Sol
+	Elements
+		Epoch_JulianYears					2014
+		SemiMajorAxis_km					10.166e9
+		Eccentricity						0.44068
+		ArgumentOfPeriapsis_degrees			150.977
+		LongitudeOfAscendingNode_degrees	35.9531
+		MeanAnomaly_degrees					204.16
+		InclinationToRelativePlane_degrees	44.0445
+Rotation
+	SiderealRotationPeriod_s			93240
+
+CelestialBody Dysnomia
+Mass_kg								4.25e20
+Radius_km							342
+Albedo								.19
+SpectralType						C
+Orbit
+	ParentBody							Eris
+	Elements
+		Epoch_JulianYears					2003
+		SemiMajorAxis_km					37350
+		Eccentricity						0.013
+		InclinationToRelativePlane_degrees	142
