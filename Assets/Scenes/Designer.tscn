@@ -1,0 +1,54 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Scripts/Designer.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Scripts/Cameraman.gd" type="Script" id=2]
+
+[sub_resource type="ProceduralSky" id=1]
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
+ambient_light_color = Color( 1, 1, 1, 1 )
+ambient_light_energy = 0.4
+ambient_light_sky_contribution = 0.2
+
+[node name="Designer" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="ModuleList" type="ItemList" parent="."]
+margin_right = 163.0
+margin_bottom = 1080.0
+items = [ "PlaceholderCylinder", null, false ]
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ship" type="Spatial" parent="."]
+
+[node name="Cameraman" type="Spatial" parent="."]
+script = ExtResource( 2 )
+
+[node name="Arm" type="Spatial" parent="Cameraman"]
+
+[node name="Camera" type="Camera" parent="Cameraman/Arm"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="Cameraman/Arm/Camera"]
+transform = Transform( 1, 0, 0, 0, 0.940009, 0.341151, 0, -0.341151, 0.940009, 0, 1.64133, 0 )
+light_energy = 0.5
+
+[node name="symmetry_counter" type="Label" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -88.0
+margin_bottom = 39.0
+text = "Symmetry: "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="item_selected" from="ModuleList" to="." method="_on_ModuleList_item_selected"]

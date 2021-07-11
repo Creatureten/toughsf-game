@@ -1,11 +1,13 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
-[ext_resource path="res://Assets/Scenes/Space.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Scripts/Space.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Media/SpaceHDR#1/Crab Nebula/hdr.png" type="Texture" id=2]
 [ext_resource path="res://Assets/Scenes/Bodies/Mars.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Assets/Scenes/Camerarotator.gd" type="Script" id=4]
+[ext_resource path="res://Assets/Scripts/Camerarotator.gd" type="Script" id=4]
 [ext_resource path="res://Assets/Scenes/Bodies/GravityBody.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Assets/Scenes/Bodies/GravityBody.gd" type="Script" id=6]
+[ext_resource path="res://Assets/Scenes/Menu.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Assets/Scenes/Bodies/Mars.gd" type="Script" id=8]
 
 [sub_resource type="PanoramaSky" id=1]
 panorama = ExtResource( 2 )
@@ -23,15 +25,52 @@ environment = SubResource( 2 )
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 
 [node name="Mars" parent="." instance=ExtResource( 3 )]
-script = null
+linear_velocity = Vector3( 0, -2, 0 )
+angular_velocity = Vector3( 0, 1, 0 )
+script = ExtResource( 8 )
 
-[node name="Cameraman" type="Spatial" parent="Mars"]
+[node name="GravityBody" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0 )
+linear_velocity = Vector3( 0, 2, 0 )
+script = ExtResource( 6 )
+
+[node name="SystemMapUI" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -3.77979
+margin_right = -3.77979
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="SystemMapUI"]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -93.0
+margin_bottom = 1080.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Timewarphalf" type="Button" parent="SystemMapUI/VBoxContainer"]
+margin_right = 105.0
+margin_bottom = 20.0
+text = "Timewarp x0.5"
+
+[node name="Timewarpdouble" type="Button" parent="SystemMapUI/VBoxContainer"]
+margin_top = 24.0
+margin_right = 105.0
+margin_bottom = 44.0
+text = "Timewarp x2"
+
+[node name="Menu" parent="." instance=ExtResource( 7 )]
+
+[node name="Cameraman" type="Spatial" parent="."]
 script = ExtResource( 4 )
 
-[node name="Camera" type="Camera" parent="Mars/Cameraman"]
+[node name="Camera" type="Camera" parent="Cameraman"]
 transform = Transform( 0.999575, -0.0193824, 0.0217952, 0.0138516, 0.973072, 0.230084, -0.0256679, -0.229684, 0.972927, 0, 3, 12.3786 )
 current = true
 
-[node name="GravityBody" parent="." instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0 )
-script = ExtResource( 6 )
+[connection signal="pressed" from="SystemMapUI/VBoxContainer/Timewarphalf" to="." method="_on_Timewarphalf_pressed"]
+[connection signal="pressed" from="SystemMapUI/VBoxContainer/Timewarpdouble" to="." method="_on_Timewarpdouble_pressed"]

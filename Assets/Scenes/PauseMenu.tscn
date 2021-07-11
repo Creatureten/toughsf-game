@@ -1,0 +1,98 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Fonts/Hhenum/Hhenum-Regular.otf" type="DynamicFontData" id=1]
+[ext_resource path="res://Assets/Fonts/Hhenum/MainFont.tres" type="DynamicFont" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 120
+font_data = ExtResource( 1 )
+
+[sub_resource type="GDScript" id=2]
+script/source = "extends Button
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+"
+
+[node name="PauseMenu" type="CenterContainer"]
+visible = false
+margin_left = 40.0
+margin_top = 40.0
+margin_right = 501.0
+margin_bottom = 1040.0
+size_flags_horizontal = 3
+
+[node name="PauseMenu" type="VBoxContainer" parent="."]
+margin_top = 265.0
+margin_right = 461.0
+margin_bottom = 735.0
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="PauseMenu"]
+margin_right = 461.0
+margin_bottom = 120.0
+custom_fonts/font = SubResource( 1 )
+text = "    Title    "
+align = 1
+
+[node name="ReturnButton" type="Button" parent="PauseMenu"]
+margin_top = 124.0
+margin_right = 461.0
+margin_bottom = 170.0
+custom_fonts/font = ExtResource( 2 )
+text = "Return"
+
+[node name="SandboxButton" type="Button" parent="PauseMenu"]
+margin_top = 174.0
+margin_right = 461.0
+margin_bottom = 220.0
+custom_fonts/font = ExtResource( 2 )
+text = "Sandbox"
+script = SubResource( 2 )
+
+[node name="ShipButton" type="Button" parent="PauseMenu"]
+margin_top = 224.0
+margin_right = 461.0
+margin_bottom = 270.0
+custom_fonts/font = ExtResource( 2 )
+text = "Ship Design"
+
+[node name="ModuleButton" type="Button" parent="PauseMenu"]
+margin_top = 274.0
+margin_right = 461.0
+margin_bottom = 320.0
+custom_fonts/font = ExtResource( 2 )
+text = "Module Design"
+
+[node name="OptionButton" type="Button" parent="PauseMenu"]
+margin_top = 324.0
+margin_right = 461.0
+margin_bottom = 370.0
+custom_fonts/font = ExtResource( 2 )
+text = "Options"
+
+[node name="MenuButton" type="Button" parent="PauseMenu"]
+margin_top = 374.0
+margin_right = 461.0
+margin_bottom = 420.0
+custom_fonts/font = ExtResource( 2 )
+text = "Main Menu"
+
+[node name="ExitButton" type="Button" parent="PauseMenu"]
+margin_top = 424.0
+margin_right = 461.0
+margin_bottom = 470.0
+custom_fonts/font = ExtResource( 2 )
+text = "Exit Game"
