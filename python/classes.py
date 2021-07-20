@@ -216,7 +216,8 @@ class Element():
             try:
                 setattr(e,'Emission',emLines[e.Emission])
             except AttributeError:
-                print("element {} does not have emission data".format(e))
+                #print("element {} does not have emission data".format(e))
+                pass
 
         
 
