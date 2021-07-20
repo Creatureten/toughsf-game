@@ -1,2 +1,2 @@
-# mars-ascending
+# Aphelion
 Spiritual successor to CoaDE
