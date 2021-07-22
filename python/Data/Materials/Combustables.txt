@@ -3,6 +3,7 @@ Elements						C	H	N	O
 ElementCount					6	7	3	11
 Density_kg__m3					1490
 EnthalpyOfFormation_kJ__mol		-534.732
+MeltingPoint_K					438.2
 SpecificHeat_J__kg_K			1406.7
 ThermalConductivity_W__m_K		.424
 YoungsModulus_GPa				.029

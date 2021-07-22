@@ -1,4 +1,5 @@
 from misc import shortHand, cocatenate, getEmissions
+from constants import R as R
 
 
 class Material:
@@ -142,10 +143,20 @@ class Reaction:
         for (p, pn) in zip(self.Products, self.ProductCounts):
             specHeat += p.molW() * pn / 1000 * p.SpecificHeat_J__kg_K
 
-        # by convention, a negative enthalpy change equals 
+        # by convention, a negative enthalpy change equals
         # an exothermic reaction.
 
         return -1 * self.dH() * 1000 / specHeat
+
+    def spGasR(self):
+        """calculates the specific gas constant of the reactants"""
+        sigmaM = 0
+        sigmaN = 0
+        for p, pn in zip(self.Products, self.ProductCounts):
+            sigmaM += p.molW() * pn / 1000
+            sigmaN += pn
+
+        return R / (sigmaM / sigmaN)
 
     def show(self):
         """

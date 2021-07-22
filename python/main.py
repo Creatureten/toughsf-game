@@ -100,6 +100,7 @@ Reaction.updateReference()
 
 
 """tests"""
+
 from chemgun import designGun
 
-designGun(Reaction.directory['Nitrocellulose'])
+designGun(Reaction.directory["Nitrocellulose"])
